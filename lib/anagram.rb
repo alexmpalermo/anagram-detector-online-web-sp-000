@@ -13,7 +13,7 @@ end
     end
      answer= new_array.select {|x| x.sort == @word.sort}
     second_array = []
-    second_array << answer.join(", ")
+    second_array << answer
 
 end
   
