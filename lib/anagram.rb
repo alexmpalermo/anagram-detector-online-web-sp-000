@@ -7,10 +7,12 @@ class Anagram
 end
 
   def match(array)
-    array.match do |x|
-      select 
-      newthing= x.split("")
-newthing.sort == @word.sort
+   new_array = []
+    array.each do |x|
+      new_array << x.split("")
+      
+      new_array.select {|x| x.sort == @word.sort}
+    
 end
 end
   
