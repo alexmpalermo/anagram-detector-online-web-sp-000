@@ -10,7 +10,8 @@ class Anagram
   end
 end
 
-  
+  def match
+    
   
   
   
