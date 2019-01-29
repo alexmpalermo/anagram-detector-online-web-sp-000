@@ -8,8 +8,8 @@ end
 
   def match(array)
     array.each do |x|
-      x.split("")
-  x.sort == @word.sort
+      newthing= x.split("")
+newthing.sort == @word.sort
 end
 end
   
