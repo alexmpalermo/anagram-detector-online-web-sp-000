@@ -14,7 +14,7 @@ end
      answer= new_array.select {|x| x.sort == @word.sort}
       answer.each do |x| 
         x.join
-
+end
 end
   
   
