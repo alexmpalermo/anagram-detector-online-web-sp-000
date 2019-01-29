@@ -3,17 +3,17 @@ class Anagram
   
   def initialize(word)
     @word = word.split("")
-     if %w() == @word.sort
+     
+end
+
+  def match
+    
+  if %w() == @word.sort
     true 
   else 
     false
   end
 end
-
-  def match
-    
-  
-  
   
   
   
