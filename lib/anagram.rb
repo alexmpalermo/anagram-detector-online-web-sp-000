@@ -10,7 +10,7 @@ end
     array.each do |x|
       x.split("")
   x.sort == @word.sort
-  
+end
 end
   
   
