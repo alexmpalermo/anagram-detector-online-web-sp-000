@@ -7,12 +7,9 @@ class Anagram
 end
 
   def match(array)
-    
-  if array == @word.sort
-    true 
-  else 
-    false
-  end
+    array.match()
+  if array.sort == @word.sort
+  
 end
   
   
