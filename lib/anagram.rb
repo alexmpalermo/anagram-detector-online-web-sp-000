@@ -12,7 +12,7 @@ end
       new_array << x.split("")
     end
      answer= new_array.select {|x| x.sort == @word.sort}
-      answer.each do |x| 
+      answer.map do |x| 
         x.join
 end
 end
