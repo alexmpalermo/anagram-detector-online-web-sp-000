@@ -2,11 +2,18 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @word = word
-    %w(array).match {|x| x.sort == word.sort}
+    @word = word.split("")
     
   end
-  
+    
+    
+   def match 
+    if %w() == @word.sort
+    true 
+  else 
+    false
+  end
+end
 
   
   
