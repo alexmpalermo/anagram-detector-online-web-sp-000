@@ -12,8 +12,7 @@ end
       new_array << x.split("")
     end
      answer= new_array.select {|x| x.sort == @word.sort}
-    second_array = []
-    second_array << answer
+      answer
 
 end
   
