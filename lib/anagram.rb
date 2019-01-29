@@ -6,9 +6,9 @@ class Anagram
      
 end
 
-  def match
+  def match(array)
     
-  if %w == @word.sort
+  if array == @word.sort
     true 
   else 
     false
