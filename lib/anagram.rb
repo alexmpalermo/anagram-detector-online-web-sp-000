@@ -8,11 +8,6 @@ class Anagram
   else 
     false
   end
-    
-    
-   def match 
-   
-  end
 end
 
   
