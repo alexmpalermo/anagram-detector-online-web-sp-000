@@ -8,7 +8,7 @@ end
 
   def match
     
-  if %w() == @word.sort
+  if %w == @word.sort
     true 
   else 
     false
