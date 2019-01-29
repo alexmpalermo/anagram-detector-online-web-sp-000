@@ -3,7 +3,12 @@ class Anagram
   
   def initialize(word)
     @word = word
-    (%w(array)).match
+    %w(array).match {|x|}
+    
+    if word.sort == x.sort
+      true 
+    else 
+      false 
   end
   
 
